@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -v 25 project_r.ncd
+project.pcf
+
+Design file:              project_r.ncd
+Physical constraint file: project.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report, limited to 25 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+inBCD<0>       |SSeg<0>        |    9.949|
+inBCD<0>       |SSeg<1>        |    9.759|
+inBCD<0>       |SSeg<2>        |    9.381|
+inBCD<0>       |SSeg<3>        |    9.540|
+inBCD<0>       |SSeg<4>        |    9.943|
+inBCD<0>       |SSeg<5>        |    9.518|
+inBCD<0>       |SSeg<6>        |    9.509|
+inBCD<1>       |SSeg<0>        |   10.132|
+inBCD<1>       |SSeg<1>        |    9.908|
+inBCD<1>       |SSeg<2>        |    9.080|
+inBCD<1>       |SSeg<3>        |    9.688|
+inBCD<1>       |SSeg<4>        |   10.127|
+inBCD<1>       |SSeg<5>        |    9.700|
+inBCD<1>       |SSeg<6>        |    9.693|
+inBCD<2>       |SSeg<0>        |    9.874|
+inBCD<2>       |SSeg<1>        |    9.648|
+inBCD<2>       |SSeg<2>        |    8.959|
+inBCD<2>       |SSeg<3>        |    9.429|
+inBCD<2>       |SSeg<4>        |    9.860|
+inBCD<2>       |SSeg<5>        |    9.443|
+inBCD<2>       |SSeg<6>        |    9.426|
+inBCD<3>       |SSeg<0>        |    9.212|
+inBCD<3>       |SSeg<1>        |    8.995|
+inBCD<3>       |SSeg<2>        |    8.999|
+inBCD<3>       |SSeg<3>        |    8.808|
+inBCD<3>       |SSeg<4>        |    9.203|
+inBCD<3>       |SSeg<5>        |    8.814|
+inBCD<3>       |SSeg<6>        |    8.801|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Mar 16 15:41:36 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 765 MB
+
+
+
